@@ -1,0 +1,38 @@
+body {
+    background-color: #fcfaf7;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.perfume-card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    text-align: left;
+}
+
+.perfume-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.category-tag {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    display: block;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid #eee;
+    margin: 15px 0;
+}
